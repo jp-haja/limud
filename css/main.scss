@@ -1,0 +1,84 @@
+@import "vendor/alfabeto";
+@import "vendor/biblia";
+@import "vendor/gramatica";
+
+@font-face {
+    font-family: 'bsthebrewregular';
+    src: url('../fonts/bsthebrew.eot');
+    src: url('../fonts/bsthebrew.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bsthebrew.woff') format('woff'),
+         url('../fonts/bsthebrew.ttf') format('truetype'),
+         url('../fonts/bsthebrew.svg#bsthebrewregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.desc-title {
+	padding: 14px 0 14px 15px;
+	display: inline-block;
+	color: #FFF;
+}
+.box-login {
+	margin-top: 60px;
+
+	form {
+		margin-top: 30px;
+	}
+
+	.form-group {
+		margin-bottom: 5px;
+	}
+
+	h1 {
+		font-size: 135px;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin: 0 0 -15px -5px;
+	}
+
+	h2 {
+		font-size: 32px;
+		font-weight: bold;
+		margin: 0;
+	}
+
+	p {
+		font-size: 16px;
+		margin: 30px 0;
+		text-align: justify;
+	}
+
+	button {
+		float: right;
+	}
+
+	.register-now {
+		display: block;
+		margin-top: 40px;
+
+		a {
+			float: right;
+			color: #333;
+
+			&:hover {
+				color: #777;
+			}
+		}
+	}
+
+	.modal-content {
+		background: #FFF;
+
+		form {
+			padding: 10px 20px 55px 20px;
+			margin: 0;
+		}
+
+		p {
+			margin: 10px 0 20px 0;
+			font-size: 13px;
+		}
+	}
+
+}
